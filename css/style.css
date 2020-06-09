@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+body {
+	font-family: Verdana;
+}
+.body1 {
+	width: 1350px;
+	margin: 0 auto;
+}
+p {
+	line-height: 1.7;
+	font-size: 15px;
+}
+h2 {
+	line-height: 2;
+}
+.clear {
+	overflow: hidden;
+}
+
+/*Header Section CSS Starts*/
+.head-section {
+    background: #2F2D2E;
+    height: 150px;
+}
+.head-section h1 {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    padding: 26px 26px 10px 26px;
+}
+.head-section p {
+    background: #fff;
+    color: #333;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+    width: 580px;
+    margin: 0 auto;
+    padding: 5px;
+}
+/*Header Section CSS Ends*/
+
+
+/*Navigation Section CSS Starts*/
+.nav-section {
+	background: #9B999A;
+}
+.nav-section ul {
+}
+.nav-section ul li {
+	float: left;
+	display: block;
+}
+.nav-section ul li a {
+    text-decoration: none;
+    display: block;
+    color: #333;
+    background: #DFDFDF;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+.nav-section ul li a:hover {
+    background: #2F2D2E;
+    color: #fff;
+}
+#active {
+    background: #2F2D2E;
+    color: #fff;
+}
+/*Navigation Section CSS Ends*/
+
+
+/*Content Section CSS Starts*/
+.serial {
+}
+.tag {
+}
+.description {
+}
+.action {
+}
+.example {}
+.content-section {}
+.content-section .content-head {}
+.content-section .content-head h2 {
+    padding: 20px 0 15px 20px;
+    font-size: 26px;
+    margin-top: 30px;
+}
+.content-section .table {
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.content-section .table table.element-tag {}
+.content-section .table table.element-tag tr:nth-child(2n + 1) {
+    background: #EEEDEF;
+}
+.content-section .table table.element-tag tr:nth-child(2n) {
+    background: #FFFDFF;
+}
+.content-section .table table.element-tag tr th {
+    font-size: 20px;
+    padding: 20px 12px;
+    color: #fff;
+    background: #008476;
+}
+.content-section .table table.element-tag tr td {
+    padding: 15px;
+}
+.content-section .table table.element-tag tr td xmp {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.content-section .table table.element-tag tr td p {
+    margin: 15px 0;
+}
+.content-section .table table.element-tag tr td h2 {
+    margin-bottom: 15px;
+}
+.content-section .table table.element-tag tr td a {
+    text-decoration: none;
+    display: block;
+    background: red;
+    color: #fff;
+    margin-right: 464px;
+    font-weight: bold;
+    padding: 16px;
+    font-size: 20px;
+    display: block;
+    margin-left: 94px;
+    border-radius: 11px;
+}
+.content-section .table table.element-tag tr td button {
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.content-section .table table.element-tag tr td dialog {
+    margin-left: 870px;
+    border: 1px solid;
+    padding: 18px;
+}
+.content-section .table table.element-tag tr td ol {
+	padding-left: 30px;
+}
+.content-section .table table.element-tag tr td h3 {
+    background: #008476;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: inline;
+}
+
+
+/*Content Section CSS Ends*/
+
+
+/*Footer Section CSS Starts*/
+footer {
+	background: #555555;
+	color: #fff;
+	text-align: center;
+}
+footer p {
+	padding: 30px 0;
+}
+/*Footer Section CSS Ends*/
+
+
+/*Others.html Starts*/
+/********************/
+
+/*Content CSS Starts*/
+
+.main-content {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/banner-bg.png);
+    height: 660px;
+    background-size: cover;
+    background-position: center;
+}
+.main-content .hero-area {
+    text-align: center;
+    color: #fff;
+    padding-top: 150px;
+}
+.main-content .hero-area h1 {
+    font-size: 40px;
+    padding: 0 215px;
+    margin-bottom: 40px;
+}
+.main-content .hero-area p {
+    padding: 0 323px;
+    font-size: 15px;
+    margin-bottom: 55px;
+}
+.main-content .hero-area a {
+    color: #fff;
+    text-decoration: none;
+}
+.start {
+    background: #FB414E;
+    padding: 10px 55px;
+}
+.start:hover {
+    background: red;
+}
+.service {
+    padding: 10px 50px;
+    border: 1px solid #FB414E;
+    margin-left: 10px;
+}
+.service:hover {
+    background: red;
+}
+
+/*Content CSS Ends*/
+
+/*Banner Section CSS Starts*/
+.banner-section {
+    margin-bottom: 80px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: -110px;
+    overflow: hidden;
+}
+.banner-section .sub-banner {
+    background: #202B30;
+    color: #fff;
+    width: 278px;
+    padding: 50px 30px;
+    float: left;
+    margin: 0 14px;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+.banner-section .sub-banner:hover {
+    background: #FB414E;
+}
+.banner-section .sub-banner img {
+    width: 80px;
+    margin-bottom: 30px;
+}
+.banner-section .sub-banner h3 {
+    font-size: 20px;
+}
+.banner-section .sub-banner .white-line {
+    background: #fff;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 192px;
+}
+.banner-section .sub-banner p {}
+/*Banner Section CSS Ends*/
+
+
+
